@@ -7,12 +7,24 @@ body{
     max-width: 50px;
 }
 .header_nav{
-    background-color: rgb(165, 18, 18);
-    border: 1px solid rgb(255, 255, 255);
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px #ccc;
-    padding: 0px;
-    margin-bottom: 5px;
+}
+a.nav-link{
+    color: black;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 1px;
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(182, 182, 182);
+}
+
+a.nav-link:hover{
+    color: rgb(119, 25, 25);
+    background-color:#c2c2c2; 
 }
 .encabezado_logo{
     -webkit-animation:scale-up-center 5s cubic-bezier(.39,.575,.565,1.000) infinite both;
@@ -30,12 +42,33 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px;
+    margin-top: 5px;
     box-shadow: 0 0 10px rgb(182, 182, 182);
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
+
+.contenedor{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 0px;
+    margin: 5px;
+    text-align: left;
+    display: inline-block;
+}
+.card-img-top{
+    width: auto;
+    height: 350px;
+}
+.card{
+    box-shadow: 0 0 10px rgb(71, 71, 71);
+}
+.btn:hover{
+    box-shadow: 0 0 10px rgb(59, 9, 9);
+}
 
 
 .contenido_aside{
