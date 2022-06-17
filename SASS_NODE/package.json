@@ -1,0 +1,17 @@
+{
+  "name": "sass_node",
+  "version": "1.0.0",
+  "description": "Hola soy la descripcion xd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss ../css/about_us.scss ../css/about_us.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Sebastian Martini",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
