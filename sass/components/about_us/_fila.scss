@@ -1,0 +1,26 @@
+.fila{
+    background-color: map-get($colores , "contenido");
+    display: grid;
+    grid-template-rows: 1fr 3fr ;
+    &_h1{
+        background-color:  map-get($colores,"btn_nav" );
+        color: map-get($colores , "contenido_titulos");
+    }
+    &_titulo{
+        text-align: center;
+        color: map-get($colores , "contenido_titulos");
+    }
+    &_parrafo{
+        text-align: center;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+    }
+    &_img_acerca_de {
+        border: 1px solid rgb(130, 178, 250);
+        border-radius: 100px;
+        box-shadow: 0 0 15px rgb(71, 71, 71);
+        padding: 0px;
+        text-align: center;
+    }
+}

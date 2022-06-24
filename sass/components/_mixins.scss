@@ -1,0 +1,6 @@
+@mixin navs{
+    border-radius: 5px;
+    box-shadow: 0 0 5px map-get($colores,"btn_shadow" );
+    text-decoration: none;
+    padding: 4px;
+}
