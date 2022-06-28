@@ -1,7 +1,7 @@
 {
   "name": "sass_node",
   "version": "1.0.0",
-  "description": "Hola soy la descripcion xd",
+  "description": "Es una pagina de recetas en la cual la gente puede consultar todo tipo de recetas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
