@@ -1,3 +1,78 @@
+@-webkit-keyframes scale-up-center {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.encabezado {
+  background-image: url("https://thumbs.dreamstime.com/b/comida-mexicana-doble-borde-vista-superior-sobre-fondo-de-banner-madera-oscura-con-espacio-copia-frontera-el-un-cartel-tacos-191565020.jpg");
+  padding: 20px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5px;
+  box-shadow: 0 0 10px rgb(182, 182, 182);
+  max-width: 100%;
+  height: 100%;
+}
+
+.contenedor {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  padding: 0px;
+  margin: 5px;
+  text-align: left;
+  display: inline-block;
+}
+
+.card-img-top {
+  width: auto;
+  height: 350px;
+}
+
+.card {
+  box-shadow: 0 0 10px rgb(71, 71, 71);
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px rgb(59, 9, 9);
+}
+
+.contenido_aside {
+  background-color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.contenido_aside_img {
+  width: 100%;
+  align-self: center;
+  border-radius: 4px;
+}
+.contenido_aside_h4 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 .fila {
   background-color: #EDCFA9;
   display: grid;
@@ -86,7 +161,36 @@ a.nav-link:hover {
   color: rgb(194, 41, 41);
 }
 
+.contenido_carrusel {
+  height: 600px;
+  justify-content: center;
+}
+.contenido_carrusel_card {
+  background-color: #e6e6e6;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(160, 160, 160);
+  padding: 5px;
+  margin: 30px 0px;
+}
+.contenido_carrusel_img {
+  max-width: 100%;
+  height: 400px;
+}
+
+.aside_recetas {
+  background-color: #f0f0f0;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  padding: 10px;
+}
+
 body {
   background-image: url("https://as1.ftcdn.net/v2/jpg/02/15/22/24/1000_F_215222458_YOwLVKx8QHe6bzzWfbRhslBQlB3W5VQU.jpg");
   margin: 5px;
+}
+
+.logo {
+  max-width: 50px;
 }/*# sourceMappingURL=styles.css.map */
