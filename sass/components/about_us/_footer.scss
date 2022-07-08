@@ -9,7 +9,7 @@
         margin: 5px;
         display: inline-block;
     }
-    
+
     &_nav_il{
         background-color: map-get($colores,"btn_nav" );
         @include navs;
