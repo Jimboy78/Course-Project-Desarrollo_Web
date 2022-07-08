@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="descripcion" content="Home del sitio web el cual muestra una vista general del mismo y lo que se puede encontrar en ella">
     <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./sass/styles.css">
     <title>Home</title>
 </head>
@@ -17,7 +18,7 @@
             <!--Header con el nav -->
 
     <header>
-        <nav class="navbar navbar-expand-lg header_nav p-0">
+        <nav class="navbar navbar-expand-md header_nav p-0">
             <div class="container-fluid ">
                 <a href="/index.html"><img class="logo img-fluid" src="https://www.entrerios.gov.ar/manosentrerrianas/sites/default/files/styles/prueba/public/imagenes_emprendedores/SaboresDeMiCocina.png?itok=Cm4woknC" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,12 +44,12 @@
     </header>
 
 
-        <div class="container-fluid contenedor">
+        <div class="container-fluid contenedor mt-2">
             <section>
-                <div class="row justify-content-around d-flex flex-md-grow-0">
+                <div class="row justify-content-around d-flex ">
                     <div class="col-md-4 mt-2">
                         <div data-aos-once="true" data-aos="flip-left" class="card text-center border-dark" >
-                            <img src="https://www.mamalatinatips.com/wp-content/uploads/2018/05/ropa-vieja-en-plato-blanco-mlt.jpg" class="card-img-top" alt="...">
+                            <img src="https://www.mamalatinatips.com/wp-content/uploads/2018/05/ropa-vieja-en-plato-blanco-mlt.jpg" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Pizza de queso y peperoni</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -59,7 +60,7 @@
                     
                     <div class="col-md-4 mt-2">
                         <div data-aos-once="true" data-aos="flip-left" class="card text-center border-dark" >
-                            <img src="https://static-sevilla.abc.es/media/gurmesevilla/2012/01/comida-rapida-casera.jpg" class="card-img-top" alt="...">
+                            <img src="https://static-sevilla.abc.es/media/gurmesevilla/2012/01/comida-rapida-casera.jpg" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Pizza de queso y peperoni</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -70,15 +71,16 @@
 
                             <!--Aside-->
 
-                    <div class="col-md-2 mt-2">
-                        <aside>
-                            <div data-aos="zoom-out" class="contenido_aside">
-                                <img  class="contenido_aside_img" src="https://c.tenor.com/b-Hg8SfEglMAAAAC/chef-total-drama.gif" alt="chef de isla del drama">
-                                <h4 class="contenido_aside_h4">
-                                    El chef de isla del drama aprueba este sitio web
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iste magni velit distinctio, officia aliquid impedit fuga porro fugit perspiciatis dignissimos reiciendis amet quas deleniti eaque ducimus qui sequi doloremque!</p>
-                            </div>
+                
+
+
+                    <div class="col-md-2 mt-2 align-self-center">
+                        <aside class="contenido_aside ">
+                            <figure class="figure">
+                                <img src="https://c.tenor.com/b-Hg8SfEglMAAAAC/chef-total-drama.gif" class="figure-img img-fluid rounded" alt="chef de isla del drama">
+                                <strong><figcaption class="figure-caption text-end text-center">El chef de isla del drama aprueba este sitio web.</figcaption></strong>
+                                <div data-aos="zoom-out" class="contenido_aside">
+                            </figure>
                         </aside>
                     </div>
                 </div>
@@ -88,7 +90,7 @@
                 <div class="row justify-content-around mt-3 mb-2">
                     <div class="col-md-4 mt-2">
                         <div data-aos-once="true" data-aos="flip-left" class="card text-center border-dark" >
-                            <img src="http://www.comedera.com/wp-content/uploads/2014/08/IMG_4792111111.jpg" class="card-img-top" alt="...">
+                            <img src="http://www.comedera.com/wp-content/uploads/2014/08/IMG_4792111111.jpg" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Pizza de queso y peperoni</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -99,7 +101,7 @@
                     
                     <div class="col-md-4 mt-2">
                         <div data-aos-once="true" data-aos="flip-left" class="card text-center border-dark" >
-                            <img src="https://d25rq8gxcq0p71.cloudfront.net/language-guide/414/pepperoni%20pizza.jpg" class="card-img-top" alt="...">
+                            <img src="https://d25rq8gxcq0p71.cloudfront.net/language-guide/414/pepperoni%20pizza.jpg" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Pizza de queso y peperoni</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -108,7 +110,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-2 "></div>
+                    <div class="col-md-2"></div>
 
                 </div>
             </section>
@@ -116,14 +118,16 @@
 
         <!--Footer-->
 
-    <footer >
-        <div class="footer">
-            <nav class="footer_nav"> 
-                <il class="footer_nav_il"><a class="footer_nav_il_link" href= "/templates/contacto.html"  target="_blank">Contacto</a></il>                                    
-                <il class="footer_nav_il"><a class="footer_nav_il_link"  href= "/templates/acerca_de.html" target="_blank">Acerca de</a></il>
-            </nav> 
-        </div>
-    </footer>
+    <div class="row">
+        <div class="col-md-12 footer">
+            <footer >
+                <nav class="footer_nav"> 
+                    <il class="footer_nav_il"><a class="footer_nav_il_link" href= "/templates/contacto.html"  target="_blank">Contacto</a></il>                                    
+                    <il class="footer_nav_il"><a class="footer_nav_il_link"  href= "/templates/acerca_de.html" target="_blank">Acerca de</a></il>
+                </nav> 
+            </footer>
+        </div>  
+    </div>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

@@ -13,6 +13,7 @@
 .contenido_carrusel_img {
   max-width: 100%;
   height: 400px;
+  text-align: center;
 }
 
 .aside_recetas {
