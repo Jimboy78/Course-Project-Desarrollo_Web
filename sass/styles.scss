@@ -6,15 +6,9 @@
         "./components/about_us/footer",
         "./components/recetas/recetas";
 
-body{
-    background-image: url("https://as1.ftcdn.net/v2/jpg/02/15/22/24/1000_F_215222458_YOwLVKx8QHe6bzzWfbRhslBQlB3W5VQU.jpg") ;
-    margin: 5px;
-    justify-items: center;
-    justify-content: center;
-    overflow-x: hidden;
 
-}
-.logo{
-    max-width: 50px;
-}
-
+        body{
+            background-image: url("https://as1.ftcdn.net/v2/jpg/02/15/22/24/1000_F_215222458_YOwLVKx8QHe6bzzWfbRhslBQlB3W5VQU.jpg") ;
+            margin: 5px;
+            overflow-x: hidden;
+        }

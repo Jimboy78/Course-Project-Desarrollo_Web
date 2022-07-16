@@ -2,6 +2,7 @@
     background-color:  map-get($colores,"nav" );
     border: 1px solid #e4d5c3;
     @include navs;
+    padding: 4px;
     &_logo{
         max-width: 50px;
     }
@@ -11,6 +12,7 @@ a.nav-link{
     background-color:  map-get($colores,"btn_nav" );
     border: 1px solid #e4d5c3;
     @include navs;
+    padding: 4px;
     margin: 0px 2px;
     &:hover{
         color: rgb(194, 41, 41);

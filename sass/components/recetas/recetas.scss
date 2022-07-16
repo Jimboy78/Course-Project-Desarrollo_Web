@@ -1,14 +1,11 @@
 
 .contenido_carrusel{
     height: 600px;
-    justify-content: center;
     &_card{
-        background-color: #e6e6e6;
+        background-color: #ffd29f;
         border: 1px solid #ccc;
         border-radius: 5px;
-        box-shadow: 0 0 10px rgb(160, 160, 160);
-        padding: 5px;
-        margin: 30px 0px;    
+        box-shadow: 0 0 10px rgb(255, 115, 0);  
     }
     &_img{
         max-width: 100%;
@@ -17,12 +14,12 @@
     }
 }
 
-
-
 .aside_recetas{
-    background-color: #f0f0f0;
-    border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     box-shadow: 0 0 5px #ccc;
-    padding: 10px;    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
 }
+
+

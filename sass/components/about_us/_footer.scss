@@ -7,15 +7,15 @@
     &_nav{
         padding: 0px;
         margin: 5px;
-        display: inline-block;
     }
 
     &_nav_il{
         background-color: map-get($colores,"btn_nav" );
         @include navs;
-
+        padding: 4px;
         &_link{
             @include navs;
+            padding: 4px;
             color: #000;
             &:hover {
                 background-color: map-get($colores,"btn_hover" );
