@@ -1,0 +1,38 @@
+.contenido_consejos{
+
+    font-family: fantasy;
+
+
+    &_header{
+        
+        background-color: map-get($colores , "contenido" );
+        &_titulo{
+            color: rgb(156, 35, 35);
+            font-family: fantasy;
+            font-size: 4rem;
+            margin-top: 10px;
+            box-shadow: 0 0 10px rgb(85, 13, 13);
+            border-radius: 15px;
+        }
+    }
+
+    &_p{
+        font-size: 2rem;
+        font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif
+    }
+
+    &_img{
+        @include navs;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgb(85, 13, 13);
+    }
+
+    &_ul{
+        padding: 5px 0px;
+        margin: 5px;
+        list-style: none;
+        font-family: Garaond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+        font-size: 1.2em;
+    }
+}
+

@@ -1,25 +1,29 @@
 .fila{
-    background-color: map-get($colores , "contenido");
     display: grid;
     grid-template-rows: 1fr 3fr ;
-    &_h1{
-        background-color:  map-get($colores,"btn_nav" );
-        color: map-get($colores , "contenido_titulos");
-    }
     &_titulo{
         text-align: center;
-        color: map-get($colores , "contenido_titulos");
+        color: rgb(156, 35, 35);
+        font-family: fantasy;
+        font-size: 4rem;
+        margin: 20px;
+        box-shadow: 0 0 10px rgb(85, 13, 13);
+        border-radius: 15px;
     }
     &_parrafo{
         text-align: center;
         color: black;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+        background-color: #fdf3e6;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(255, 115, 0);  
     }
     &_img_acerca_de {
-        border: 1px solid rgb(130, 178, 250);
+        border: 1px solid rgb(250, 154, 130);
         border-radius: 100px;
-        box-shadow: 0 0 15px rgb(71, 71, 71);
+        box-shadow: 0 0 10px rgb(85, 13, 13);
         padding-top: 0px;
         margin-top: 10px;
         text-align: center;

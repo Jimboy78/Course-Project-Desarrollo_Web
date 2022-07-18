@@ -1,6 +1,15 @@
 
 .contenido_carrusel{
     height: 600px;
+    &_titulo{
+        text-align: center;
+        color: rgb(156, 35, 35);
+        font-family: fantasy;
+        font-size: 4rem;
+        margin-top: 20px;
+        box-shadow: 0 0 10px rgb(85, 13, 13);
+        border-radius: 15px;
+    }
     &_card{
         background-color: #ffd29f;
         border: 1px solid #ccc;
@@ -12,6 +21,13 @@
         height: 400px;
         text-align: center;
     }
+}
+.card_recetas{
+    background-color: #fcecd9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 115, 0);  
+    width: 60%;
 }
 
 .aside_recetas{
