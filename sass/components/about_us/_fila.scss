@@ -2,7 +2,7 @@
     &_titulo{
         text-align: center;
         color: rgb(156, 35, 35);
-        font-family: fantasy;
+        font-family: fantasy, Georgia, serif;
         font-size: 3rem;
         margin: 20px;
         box-shadow: 0 0 10px rgb(85, 13, 13);
@@ -25,6 +25,13 @@
         padding-top: 0px;
         margin-top: 10px;
         text-align: center;
-        min-height: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .fila_titulo{
+        font-size: 2rem;
+    }
+    .fila_parrafo{
+        font-size: 1.2rem;
     }
 }

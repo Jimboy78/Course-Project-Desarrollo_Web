@@ -4,7 +4,7 @@
     &_titulo{
         text-align: center;
         color: rgb(156, 35, 35);
-        font-family: fantasy;
+        font-family: fantasy, Georgia, serif;
         font-size: 3rem;
         margin-top: 20px;
         box-shadow: 0 0 10px rgb(85, 13, 13);
@@ -38,4 +38,9 @@
     top: 5%;
 }
 
+@media only screen and (max-width: 768px) {
+    .contenido_carrusel_titulo{
+        font-size: 2rem;
+    }
 
+}

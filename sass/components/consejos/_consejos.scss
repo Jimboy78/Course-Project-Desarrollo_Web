@@ -8,7 +8,7 @@
         background-color: map-get($colores , "contenido" );
         &_titulo{
             color: rgb(156, 35, 35);
-            font-family: fantasy;
+            font-family: fantasy, Georgia, serif;
             font-size: 3rem;
             margin-top: 10px;
             box-shadow: 0 0 10px rgb(85, 13, 13);
@@ -35,4 +35,11 @@
         font-size: 1.2em;
     }
 }
-
+@media only screen and (max-width: 768px) {
+    .contenido_consejos_header_titulo{
+        font-size: 2rem;
+    }
+    .contenido_consejos_p{
+        font-size: 1.2rem;
+    }
+}
