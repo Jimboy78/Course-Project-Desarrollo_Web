@@ -212,7 +212,7 @@ a.nav-link:hover {
   box-shadow: 0 0 10px rgb(255, 115, 0);
 }
 .contenido_carrusel_img {
-  max-width: 100%;
+  max-width: 580px;
   height: 400px;
   text-align: center;
 }
@@ -222,6 +222,12 @@ a.nav-link:hover {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgb(255, 115, 0);
+}
+.card_recetas_titulo {
+  color: rgb(156, 35, 35);
+  box-shadow: 0 0 10px rgb(85, 13, 13);
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 .aside_recetas {
